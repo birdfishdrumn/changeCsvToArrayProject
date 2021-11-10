@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 export default function CsvReader(){
-    const [csvFile, setCsvFile] = useState();
+    const [csvFile, setCsvFile] = useState(null);
     const [csvArray, setCsvArray] = useState([]);
     // [{name: "", age: 0, rank: ""},{name: "", age: 0, rank: ""}]
 
