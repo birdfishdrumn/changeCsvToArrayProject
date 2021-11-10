@@ -7,7 +7,7 @@ interface Props {
 const Layout:VFC<Props> = ({children}) => {
   return (
     <div className="mx-auto max-w-xl my-20">
-     {children}
+      <div className="mx-4">{children}</div>
     </div>
   )
 }
